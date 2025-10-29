@@ -1,5 +1,5 @@
 #include <iostream>
-#include <string> // Diperlukan untuk menggunakan tipe data string
+#include <string>
 
 using namespace std;
 
@@ -23,10 +23,9 @@ bool isPalindrome(string str) {
 }
 
 int main() {
-    // Definisikan array string untuk diuji
     string testCases[] = {
         "madam",
-        "abba ", // Perhatikan ada spasi di akhir
+        "abba ",
         "22",
         "67876",
         "444244",

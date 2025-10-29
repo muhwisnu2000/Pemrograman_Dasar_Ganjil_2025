@@ -16,26 +16,26 @@ int main() {
     double rad, diam, circ, ar;
 
     // Minta input titik pusat
-    cout << "Masukkan koordinat titik pusat (x y): ";
+    cout << "Masukkan koordinat titik pusat (x1, y1): ";
     cin >> centerX >> centerY;
 
     // Minta input titik di tepi lingkaran
-    cout << "Masukkan koordinat titik di tepi (x y): ";
+    cout << "Masukkan koordinat titik di tepi (x2, y2): ";
     cin >> pointX >> pointY;
 
     // Panggil fungsi untuk menghitung
     rad = radius(centerX, centerY, pointX, pointY);
-    diam = 2.0 * rad; // Diameter tidak disyaratkan sebagai fungsi
+    diam = 2.0 * rad;
     circ = circumference(rad);
     ar = area(rad);
 
     // Tampilkan hasil
     cout << fixed << setprecision(2); // Atur output ke 2 angka desimal
     cout << "\n--- Hasil Perhitungan Lingkaran ---" << endl;
-    cout << "Radius        : " << rad << endl;
-    cout << "Diameter      : " << diam << endl;
+    cout << "Radius         : " << rad << endl;
+    cout << "Diameter       : " << diam << endl;
     cout << "Keliling (Circ): " << circ << endl;
-    cout << "Luas (Area)   : " << ar << endl;
+    cout << "Luas (Area)    : " << ar << endl;
 
     return 0;
 }
