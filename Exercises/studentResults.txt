@@ -1,0 +1,29 @@
+--------------------------------------------------
+Nama Siswa                    Skor      Nilai
+--------------------------------------------------
+Santoso, Budi                 85        B
+Wijaya, Ani                   92        A
+Hartono, Eko                  78        C
+Rahayu, Siti                  99        A
+Hidayat, Agus                 65        D
+Lestari, Dewi                 88        B
+Nugroho, Joko                 71        C
+Handayani, Rina               95        A
+Gunawan, Hendra               81        B
+Puspita, Maya                 76        C
+Saputra, Doni                 95        A
+Wulandari, Fitri              68        D
+Prasetyo, Asep                82        B
+Astuti, Indah                 89        B
+Mulyadi, Yusuf                70        C
+Novitasari, Lestari           99        A
+Ramadhan, Rizky               60        D
+Utami, Wulan                  83        B
+Susanto, Dedi                 55        F
+Setiawan, Putri               91        A
+
+--------------------------------------------------
+Skor Tes Tertinggi: 99
+Siswa dengan skor tertinggi:
+Rahayu, Siti
+Novitasari, Lestari
